@@ -1,0 +1,16 @@
+Test Case,	Description,	Input Data and Start State,	Expected Results
+1,	Add an item to an empty list,	Add "Basketball" to empty list,	List with one item, the String "Basketball"
+2,	Remove an item from a list,	Remove "Basketball" from list,	List with no items
+3,	Get the size of an empty list,	Get the size of an empty list,	List that is null (no items)
+4,	Get the size of a list with stuff in it,	Get the size of a filled list,	List with a certain number of items (filled)
+5,	Check if the list is empty in an empty list,	check if an empty list is actually empty,	Says that the empty list is empty
+6,	Check if the list is empty in a non-empty list,	Check if a list with something in it has something,	Says that the list is not empty
+7,	Check if a list has a certain value in it,	Check if a list contains "Baseball",	List does have "Baseball"
+8,	Check if a list does not have a certain value,	Check if a list contains "Watermeleon",	List does not have "Watermeleon"
+9,	Get an item from the list that does exist,	Get the value "Volleyball",	Returns "Volleyball"
+10,	Get an item from the list that does not exist,	Get the value "Apple",	Returns null
+11,	Get the next item on the list, and set it to the next pointer,	Get the next value "Football",	Returns "Football" and sets to the next pointer
+12,	Reset the iterator in the list,	Sets the Iterator back to the beginning,	Sets everything back to the first element
+13,	Get the previous item on the list, and set it to the last element,	Get the previous value "Hockey",	Returns "Hockey" and sets to the previous pointer
+14,	Set the iterator to the end of the list,	Sets the Iterator to the end of the list,	Sets everything to the end of the list
+15,	Read everything on the list,	Print every item on the made list,	Returns every item on the list
